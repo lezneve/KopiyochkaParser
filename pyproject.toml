@@ -1,0 +1,14 @@
+[project]
+name = "kopiyochka-parser"
+version = "0.1.0"
+description = "синхронізує каталог копійочки в postgresql"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp",
+    "aioboto3",
+    "asyncpg",
+    "beautifulsoup4",
+    "python-dotenv",
+    "pillow",
+]
