@@ -1,8 +1,23 @@
+# Python
 __pycache__/
 *.py[cod]
 .venv/
+venv/
+
+# Local databases
+*.sqlite
+*.sqlite-journal
+*.db
+.pgdata/
+*.log
+
+# Local config & environment
+config*.json
 .env
+.env.*
 .python-version
 obscura/
-*.log
-.pgdata/
+
+# IDE
+.idea/
+.vscode/
